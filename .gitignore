@@ -1,0 +1,45 @@
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*~
+
+# Go build
+/bin/
+/build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go modules
+vendor/
+
+# Protobuf generated files
+*.pb.go
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker
+*.env
+
+# Node/npm (if any)
+node_modules/
+
+# Python (if any)
+__pycache__/
+*.pyc
+
+# Others
+coverage/
+.env*
